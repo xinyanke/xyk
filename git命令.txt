@@ -24,4 +24,7 @@ rm file # 删除文件
 git rm file # 从版本库中删除，并且git commit
 git checkout --file 把误删的文件恢复到最新版本
 ssh-keygen -t rsa -C "youemail" 如果用户主目录没有.ssh目录，则使用此命令创建ssh key 一路回车 id_rsa是私钥，不能泄露出去，id_rsa.pub是公钥，可以告诉任何人;登录github，打开account settings,ssh keys页面，点add ssh key,填上任意title，在key文本框里粘贴id_rsa.pub
+git remote add origin git@github.com:xinyanke/xyk.git # 关联远程仓库
+git push -u origin master # 把本地库的所有内容推送到远程库上,-u 参数 关联并简化命令，此后使用 git push origin master 即可
+
 
