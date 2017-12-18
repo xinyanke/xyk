@@ -6,7 +6,9 @@
 pip install Django==1.11
 > 创建项目
 `django-admin startproject xiangmu`
-
+`python -m django --verssion`查看版本
+> 开发服务器
+`python manage.py runserver`
 
 
 
