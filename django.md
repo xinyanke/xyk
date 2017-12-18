@@ -10,6 +10,9 @@ pip install Django==1.11
 > 开发服务器
 `python manage.py runserver`
 
+> settings.py 内容设置
+LANGUAGE_CODE= 'zh-hans'
+TIME_ZONE='Asia/Shanghai'
 
 
 
