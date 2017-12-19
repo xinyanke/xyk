@@ -14,5 +14,11 @@ pip install Django==1.11
 LANGUAGE_CODE= 'zh-hans'
 TIME_ZONE='Asia/Shanghai'
 
+> 创建应用
+`python manage.py startapp yingyong`
+
+'settings.py增加应用'
+INSTALLED_APPS 下面增加应用 'yingyong',
+
 
 
