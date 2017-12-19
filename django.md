@@ -20,5 +20,7 @@ TIME_ZONE='Asia/Shanghai'
 'settings.py增加应用'
 INSTALLED_APPS 下面增加应用 'yingyong',
 
+> 在数据库中创建表
+python manage.py migrate
 
 
