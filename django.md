@@ -23,4 +23,6 @@ INSTALLED_APPS 下面增加应用 'yingyong',
 > 在数据库中创建表
 python manage.py migrate
 
+创建一个管理用户
+python manage.py createsuperuser
 
